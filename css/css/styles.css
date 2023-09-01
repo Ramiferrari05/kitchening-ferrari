@@ -1,0 +1,159 @@
+body{
+    background-image: url(../images/bg-body.png);
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+header img{
+    border-radius: 70px;
+}
+
+.main-container{
+    max-width: 1366px;
+    margin: auto;
+    color: #666;
+}
+
+.login-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.login-register ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.logreg{
+    color: black;
+    margin: 10px;
+}
+
+
+.secciones{
+    max-width: 1366px;
+    
+    
+    
+}
+
+.seccioneshijo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+    padding-left: 197px;
+    padding-right: 197px;
+    
+    
+
+}
+
+.seccioneshijo li{
+    display: flex;
+    background-color: rgb(83, 82, 82);
+    flex-basis: 148px;
+    height: 50px;
+    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px
+    
+}
+
+.lihome{
+    margin-right: 10px;
+}
+.liquienes{
+    margin-right: 10px;
+}
+.liservicios{
+    margin-right: 10px;
+}
+.liportfolio{
+    margin-right: 10px;
+}
+.lisucursales{
+    margin-right: 10px;
+}
+
+.licontacti{
+    margin-right: 10px;
+}
+
+.productos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 197px;
+    padding-right: 197px;
+}
+
+.productos img{
+    width: 300px;
+}
+.productos article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.productos article li{
+    background-color: rgb(83, 82, 82);
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vermas{
+    color: white;
+}
+
+h2{
+    color: black;
+}
+
+
+footer{
+    margin-top: 30px;
+    background-color: red;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.piepagina ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.piepagina li{
+    margin: 10px;
+    color: white;
+}
